@@ -1,0 +1,151 @@
+*,*::before,*::after{box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing: border-box;
+  }
+  
+  html{font-size:18px; /*1rem = 18px*/
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0;
+  }
+  body{
+    
+      font-family: 'Open Sans'verdana,sans-serif; 
+      background-image:linear-gradient(to right, #8e0e00,#1f1c18);
+  }
+  /*tornando imagens responsivas*/
+  img {max-width: 100%;}
+  /*reset em alguns elementos*/
+  body,h1,h2,h3,p,figure{
+      margin: 0;
+      padding: 0;
+  }
+
+header,footer{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+header{ border-bottom: solid 1px;
+        margin-bottom: 10px;    
+}
+footer{border-top: solid 1px;}
+
+main {
+    width: 95%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto; /* centralizar o bloco */
+}
+
+/* p { text-align: justify; } */
+
+/* Regra para cada área de conteúdo (article)
+contida na página */
+article {
+    background-color: white;
+    padding: 2%;
+    margin: 10px 0;
+    box-shadow: black 1px 1px 5px;
+}
+nav{
+   background-color: black;
+ 
+  
+}
+.navbar{
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    height: 80px;
+}
+/*Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+ 
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 12px;
+  
+}
+/* The subnavigation menu */
+.subnav {
+  float: left; 
+}
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px ;
+  padding-left: 50px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-top: 10px;
+  
+}
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgb(197, 171, 171);
+}
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: rgb(148, 28, 28);
+  width:100%;
+}
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+  .cadastrocp{
+      width: 50%;
+      height: 50%;
+      margin-left: 100px;
+      position:absolute;
+      left: 20px;
+      top: 100px;
+      color: white;
+  }
+
+  .lenda{
+      color: white;
+      border: none;
+      text-align: center;
+  }
+
+#my-form-button{
+  margin-top: 10px;
+    background-color: black;
+    color: blanchedalmond;
+    margin-left: 215px;
+}
+
+.container-frase{
+  margin-top: 120px;
+  height: 150px;
+  width: 250px;
+  margin-left: 70rem;
+  background-color: black;
+  color: aliceblue;
+}

@@ -1,0 +1,482 @@
+*,*::before,*::after{box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing: border-box;
+  }
+  
+  html{font-size:20px; /*1rem = 18px*/
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0;
+ 
+  }
+  body{
+    
+      font-family: 'Open Sans'verdana,sans-serif; 
+      background-image:linear-gradient(to right, #8e0e00,#1f1c18);
+  }
+  /*tornando imagens responsivas*/
+  img {max-width: 100%;}
+  /*reset em alguns elementos*/
+  body,h1,h2,h3,p,figure{
+      margin: 0;
+      padding: 0;
+      
+  }
+
+header,footer{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.541);
+  
+}
+header{ border-bottom: solid 1px;
+        margin-bottom: 0px;    
+}
+footer{border-top: solid 1px;}
+
+main {
+    width: 95%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto; /* centralizar o bloco */
+}
+
+/* p { text-align: justify; } */
+
+/* Regra para cada área de conteúdo (article)
+contida na página */
+
+nav{
+   background-color: black;
+   height: 70px; 
+   font-family: 'Kaushan Script', cursive;
+  
+   
+}
+.navbar{
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    height: 40px;
+}
+/*Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* The subnavigation menu */
+.subnav {
+  float: left; 
+}
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 10px  30px;
+  padding-left: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-top: 20px;
+}
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  width:100%;
+  z-index:1;
+  
+}
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+/*fim do NAV.html*/
+
+.cont-slider{
+  margin-top: -50px;
+  margin-left: -10px;
+  width: 300px;
+  
+}
+#slider{
+
+margin-left: 0px;
+width: 100%;
+background-image: linear-gradient(to right, #870000,#190a05);
+margin-top: 100px;
+height: 250px;
+border: 4px solid white;
+border-radius: 1.2rem;
+opacity: 1;
+}
+.subt-slide{
+margin-top:-180px;
+margin-left: 100px;
+color: aliceblue;
+font-family: 'Kaushan Script', cursive;
+
+
+}
+.valor-slide li{
+  margin-top: 10px;
+  margin-left: 150px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration-line:underline;
+  font-family: 'Kaushan Script', cursive;
+ 
+}
+.item img{
+margin-top: 50px;
+margin-left: 5px;
+width: 150px;
+height: 150px;
+border:2px solid black
+
+
+}
+#CArdhist{
+  margin-top: 50px;
+  margin-left: 15px;
+  width: 90%;
+  height: 400px;
+  border: 1px black solid;
+  border-radius: 1.2rem;
+  background-image:linear-gradient(to right, #b44437,#575654);
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+}
+.card-title{
+  text-decoration-line: underline;
+}
+.card-header{
+  margin-top: 5px;
+  background-color: rgb(49, 45, 45);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  border: 1px solid black;
+  color: azure;
+  text-shadow: black 4px 4px 4px;
+  border-radius: 1.2rem;
+  font-family: 'Kaushan Script', cursive;
+  
+}
+.card-header:hover{
+  background-color: black;
+}
+.card-text{
+  border: 1px solid black;
+  height: 280px;
+  background: blanchedalmond;
+  font-size: 18px;
+
+}
+#CArdhamb{
+  margin-top: 50px;
+  margin-left: 15px;
+  width: 90%;
+  height: 400px;
+  border: 1px black solid;
+  border-radius: 1.2rem;
+  background-image:linear-gradient(to right, #b44437,#575654);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 14px;
+  font-weight: bold;
+}
+.card-body{
+  color:black;
+  text-shadow:whitesmoke 2px 1px 8px;
+  border-radius: 1.2rem;
+}
+
+.formulario{
+  margin-top: -90px;
+}
+
+#promocao{
+background-color:black;
+color: #f2f2f2;
+font-weight: bold;
+
+}
+
+.container-conteudo{
+  max-width: 1000px;
+}
+
+@media screen and (min-width:360px){
+
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 30px ;
+    padding-left: 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .formhome{
+    color: aliceblue;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 28px;
+    text-shadow: black 2px 2px 2px;
+  }
+  .cont-slider{
+    margin-top: -50px;
+  
+    width: 300px;
+    
+  }
+  #slider{
+    margin-left: -8px;
+    width: 357px;
+    background-image: linear-gradient(to right, #870000,#190a05);
+    margin-top: 100px;
+    height: 250px;
+    border: 4px solid white;
+  }
+    .subt-slide{
+      margin-top:-230px;
+      margin-left: 180px;
+      color: aliceblue;
+      }
+      #valor-slide li{
+        margin-top: 20px;
+        margin-left: 150px;
+        list-style: none;
+        font-weight: bold;
+        font-size: 14px;
+        color: aliceblue;
+      }
+      .item img{
+      margin-top: 18px;
+      margin-left: 5px;
+      width: 170px;
+      min-height: 220px;
+      }
+    }
+@media screen and (min-width:375px){
+
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 20px ;
+    padding-left: 30px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    margin-top: 0px;
+  }
+  .subnav-content{
+    margin-top: -1px;
+  }
+  .formhome{
+    margin-left: 0px;
+    text-align: center;  
+  }
+  .cont-slider{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    background-color: #eee;
+  }
+  #slider{
+    margin-left: 0px;
+    width: 100%;
+      border: 4px solid #eee;
+    }
+  .subt-slide{
+    margin-top:-150px;
+    margin-left: 184px;
+    color: aliceblue;
+    }
+    .item img{
+      margin-top: 50px;
+      margin-left: 10px;
+      width: 170px;
+      min-height: 100px;
+      }
+      #valor-slide li{
+        margin-top: 10px;
+        margin-left: 150px;
+        list-style: none;
+        font-weight: bold;
+        font-size: 14px;
+        color: aliceblue;
+      }
+    .carousel-indicators ol{ 
+      position: absolute;
+      bottom: 10px;
+      left: 50px;
+      z-index: 15;
+      width: 60%;
+      padding-left: 0;
+      margin-left: -30%;
+      text-align: center;
+      list-style: none;
+    }
+  }
+  @media screen and (min-width:568px){
+    
+    .subnav .subnavbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 20px 40px ;
+      padding-left: 60px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+      margin-top: 10px;
+    }
+    .subt-slide{
+      margin-top:-150px;
+      margin-left: 250px;
+      color: aliceblue;
+      }
+    #valor-slide li{
+      margin-top: 10px;
+      margin-left: 250px;
+      list-style: none;
+      font-weight: bold;
+      font-size: 14px;
+      color: aliceblue;
+    }
+  }
+
+  @media screen and (min-width:667px){
+
+    .formhome{
+      margin-left: -60px;
+    }
+
+    .subnav .subnavbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 20px 40px ;
+      padding-left: 60px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+      margin-top: 10px;
+    }
+    .cont-slider{
+      margin-right: 0px;
+      margin-left: 0px;
+      width: 535px;
+      background-color: #eee;
+    }
+    #slider{
+      margin-left: 0px;
+      width: 100%;
+        border: 4px solid #eee;
+      }
+      #CArdhist,#CArdhamb{
+        width: 500px;
+  }
+}
+@media screen and (min-width:740px){
+  .formhome{margin-left: -90px;}
+}
+@media screen and (min-width:896px){
+  .formhome{margin-left: -150px;}
+}
+
+@media screen and (min-width:1024px){
+  .formhome{
+    margin-left: -50px;
+  }
+
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 50px ;
+    padding-left: 150px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .subt-slide{
+    margin-top:-190px;
+    margin-left: 400px;
+    color: aliceblue;
+    }
+
+    .item img{
+      margin-top: 30px;
+      margin-left: 100px;
+      width: 200px;
+      min-height: 200px;
+      }
+  .valor-slide li{
+    margin-top: 10px;
+    margin-left: 364px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: aliceblue;
+  }
+  .subnav{
+    margin-top: -15px;
+  }
+  .subnav-content{
+margin-top: -15px;
+
+
+  }
+  .cont-slider{
+    margin-right: 0px;
+    margin-left: 50px;
+    width: 780px;
+    background-color: #eee;
+  }
+  #slider{
+    margin-left: 0px;
+    width: 100%;
+      border: 4px solid #eee;
+    }
+
+    #CArdhist,#CArdhamb{
+      margin-left: 40px;
+      width: 800px;
+
+}
+}

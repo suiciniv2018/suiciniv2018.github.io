@@ -1,0 +1,1299 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    /*1rem = 18px*/
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: 'Open Sans'verdana, sans-serif;
+    background-image: linear-gradient(to right, #a12f22, #332f2b);
+    
+    
+}
+
+
+/*tornando imagens responsivas*/
+
+img {
+    max-width: 100%;
+}
+
+
+/*reset em alguns elementos*/
+
+body,
+h1,
+h2,
+h3,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+
+header {
+    border-bottom: solid 1px;
+    margin-bottom: 10px;
+}
+
+footer {
+    border-top: solid 1px;
+}
+
+main {
+    width: 95%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    /* centralizar o bloco */
+}
+
+
+/* p { text-align: justify; } */
+
+
+/* Regra para cada área de conteúdo (article)
+contida na página */
+
+article {
+    background-color: white;
+    padding: 2%;
+    margin: 10px 0;
+    box-shadow: black 1px 1px 5px;
+}
+
+nav {
+    background-color: black;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar {
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    height: 80px;
+    
+}
+
+
+/*Navigation links */
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+/* The subnavigation menu */
+
+.subnav {
+    float: left;
+}
+
+
+/* Subnav button */
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    padding-left: 20px;
+    background-color: inherit;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    margin-top:0;
+    font-size: 20px;
+}
+
+
+/* Add a red background color to navigation links on hover */
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: rgb(197, 171, 171);
+}
+
+
+/* Style the subnav content - positioned absolute */
+
+.subnav-content {
+   
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        width:100%;
+        z-index:1;
+        
+      
+}
+
+
+/* Style the subnav links */
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* Add a grey background color on hover */
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+
+/* When you move the mouse over the subnav container, open the subnav content */
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+#ecomercetit {
+    margin-top: 15px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#dropdownMenuLink {
+    color: white!important;
+    border: 1px solid white;
+    
+}
+
+.dropdown-item {
+    color: white;
+    font-size: 18px;
+    margin-left: -25px!important;
+}
+
+ul :hover {
+    border: none;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(197, 126, 126);
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    background-color: black!important;
+    width: 100%;
+}
+
+
+/*------------------------------titulo cards carne e outros--------------------------------*/
+
+
+/*-------------------------------Card 01 esquerda Carne ----------------------------*/
+
+#cardcarn {
+    width: 100%;
+    font-family: 'Audiowide', cursive;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+#contcarnFR {
+    margin-left: 0;
+    width: 100%;
+    height: 200px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+
+#contcarnIMG00 {
+    margin-top: 50px;
+    width: 110px;
+}
+
+#cardcarn00 {
+    margin-top: -150px;
+    margin-left: 120px;
+    border: none;
+}
+
+#cardcarn h1{
+    margin-left: -100px;
+}
+#cardcarn00 h2 {
+    margin-left: -110px;
+}
+
+#IMGMOda {
+    margin-top: -130px;
+    margin-left: 450px;
+    width: 190px;
+    height: 190px;
+    display: block;
+}
+
+.modal-header h2 {
+    width: 400px;
+}
+
+#bottom00 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+
+/*-------------------------------Card 02 Direira Carne ----------------------------*/
+
+#contcarnFR1 {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+    height: 200px;
+    border: cornsilk solid 1px;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+
+#contcarnIMG01 {
+    margin-top: 60px;
+    width: 100px;
+}
+
+#cardcarn01 {
+    margin-top: -150px;
+    margin-left: 110px;
+    border: none;
+    font-family: 'Audiowide', cursive;
+   
+}
+
+#cardcarn01 h2 {
+    margin-left: -100px;
+}
+
+#IMGMOda1 {
+    margin-top: -160px;
+    margin-left: 450px;
+    width: 190px;
+    height: 190px;
+    display: block;
+}
+
+#bottom01 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+
+/*-------------------------------Card 03 esquerda Carne ----------------------------*/
+
+#contcarnFR2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+
+#contcarnIMG02 {
+    margin-left: 0px;
+    margin-top: 60px;
+    width: 100px;
+}
+
+#cardcarn02 {
+    margin-top: -150px;
+    margin-left: 110px;
+    border: none;
+    font-family: 'Audiowide', cursive;
+}
+
+#cardcarn02 h2 {
+    margin-left: -100px;
+}
+
+#IMGMOda2 {
+    margin-top: -130px;
+    margin-left: 390px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+#bottom02 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+
+/*------------------------- card 04 Carne -----------------------------------------*/
+
+#contcarnFR3 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+
+#contcarnIMG03 {
+    margin-left: 0px;
+    margin-top: 60px;
+    width: 100px;
+}
+
+#cardcarn03 {
+    margin-top: -155px;
+    margin-left: 110px;
+    border: none;
+    font-family: 'Audiowide', cursive;
+}
+
+#cardcarn03 h2 {
+    margin-left: -100px;
+}
+
+#IMGMOda3 {
+    margin-top: -130px;
+    margin-left: 390px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+#bottom03 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+
+/* --------------------------fim cards carne----------------------------------*/
+
+
+/* --------------------------inicio cards calabresa---------------------------*/
+
+#cardcalabresa {
+    margin: 0px;
+    margin-top: 10px;
+    margin-right: 400px;
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+#cardcalabresa {
+    margin-left: 20px;
+    width: 100%;
+    margin-left: 80px;
+}
+
+#contcarnFR4 {
+    margin-top: -60px;
+    width: 100%;
+    height: 220px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+
+#contcarnIMG04 {
+    margin-left: 0;
+    margin-top: 60px;
+    width: 100px;
+}
+
+#cardcarn04 {
+    margin-top: -150px;
+    margin-left: 110px;
+    border: none;
+    font-family: 'Audiowide', cursive;
+}
+
+#cardcalabresa h1{
+margin-left: -100px;
+width: 390px;
+}
+#cardcarn04 h2 {
+    margin-left: -100px;
+}
+
+#IMGMOda4 {
+    margin-top: -130px;
+    margin-left: 390px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+#bottom04 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+
+/*------------------------- Fim Card Calabresa-------------------------------*/
+
+
+/*------------------------- Inicio Card Frango-------------------------------*/
+
+#cardfrango {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    margin-left: 80px;
+}
+
+#contcarnFR5 {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+    height: 210px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+
+#contcarnIMG05 {
+    margin-top: 60px;
+    width: 100px;
+}
+
+#cardcarn05 {
+    margin-top: -150px;
+    margin-left: 110px;
+    border: none;
+    font-family: 'Audiowide', cursive;
+}
+
+#cardfrango h1{
+margin-left: -100px;
+font-family: 'Audiowide', cursive;
+}
+
+#cardcarn05 h2 {
+    margin-left: -100px;
+}
+
+#IMGMOda5 {
+    margin-top: -130px;
+    margin-left: 390px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+#bottom05 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+
+/*------------------------- Fim Card Frango-------------------------------*/
+
+
+/*------------------------- Inicio Card Vegetariano------------------------*/
+
+#cardvegeta {
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 400px;
+    width: 100%;
+    
+    color: white;
+    font-family: 'Audiowide', cursive;
+   
+}
+
+#cardvegeta h1{
+    margin-left: 100px;
+
+
+}
+
+#contcarnFR6 {
+    margin-top: 10px;
+    width: 100%;
+    height: 280px;
+    border: cornsilk solid 1px!important;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+    
+    
+}
+
+#contcarnIMG06 {
+    margin-top: 90px;
+    width: 100px;
+    
+}
+
+#cardcarn06 {
+    margin-top: -90px;
+    margin-left: 110px;
+    border: none;
+    font-family: 'Audiowide', cursive;
+}
+
+#cardvegeta h1{
+margin-left:-10px;
+font-family: 'Audiowide', cursive;
+}
+#cardcarn06 h2 {
+    margin-top: -160px;
+    margin-left: -100px;
+    
+}
+
+#IMGMOda6 {
+    margin-top: -130px;
+    margin-left: 390px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+#bottom06 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+
+/*------------------------- Fim Card Vegetariano------------------------*/
+
+
+#contcarnFR7 {
+    margin-top: 10px;
+    width: 100%;
+    height: 210px;
+    border: cornsilk solid 1px!important;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+}
+
+#contcarnIMG07 {
+    margin-top: 70px;
+    width: 100px;
+}
+
+#cardcarn07 {
+    margin-top: -90px;
+    margin-left: 110px;
+    border: none;
+}
+
+#cardcarn07 h2 {
+    margin-top: -140px;
+    margin-left: -100px;
+}
+
+#cardcarn07 .float-esquerda{
+margin-left: 10px;
+margin-top: 8px;
+}
+#IMGMOdanv {
+    margin-top: 50px!important;
+    margin-left: 390px!important;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+#bottom07 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+#contcarnFR8 {
+    margin-top: 10px;
+    width: 100%;
+    height: 210px;
+    border: cornsilk solid 1px!important;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+}
+
+#contcarnIMG08 {
+    margin-top: 90px;
+    width: 100px;
+}
+
+#cardcarn08 {
+    margin-top: -90px;
+    margin-left: 110px;
+    border: none;
+}
+
+#cardcarn08 h2 {
+    margin-top: -160px;
+    margin-left: -100px;
+}
+
+#IMGMOdanv1 {
+    margin-top: -130px!important;
+    margin-left: 480px!important;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+#bottom08 {
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+}
+
+#lancamentos h1{
+margin-left: -20px;
+width: 300px;
+border:1px solid black;
+background-color: black;
+color: white;
+font-family: 'Audiowide', cursive;
+text-align: center;
+font-size: 3.9rem;
+
+}
+
+#cardnovosLanchess h1{
+margin-left: -10px;
+}
+
+#cardnovosLanches h1{
+    width: 300px;
+    margin-left: -80px;
+}
+
+.zoom-lc {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(2.9);
+    -webkit-transform: scale(2.9);
+    transform: scale(2.9);
+}
+
+.modal,
+.modal1 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+   
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: white!important;
+    color: black;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-body {
+    color: black;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+    display: block;
+}
+
+.modal-footer:hover,
+.modal-footer:focus {
+    background-color: black;
+}
+
+.zoom-lc {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(2.0);
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
+}
+
+.modal,
+.modal1 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-image: linear-gradient(to right, #8E0E00, #1f1c18);
+    color: white;
+    height: 220px;
+
+    
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-body {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(20, 19, 19);
+    
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    display: block;
+}
+
+.modal-footer:hover,
+.modal-footer:focus {
+    background-color: rgb(71, 192, 40);
+}
+
+#quantitya {
+    color: black;
+}
+
+#quantityb {
+    color: black;
+}
+
+.info {
+    color: whitesmoke;
+    white-space: pre-wrap;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: unset;
+}
+
+.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-footer h3 {
+    flex-direction: row;
+}
+
+.float-esquerda {
+    float: left;
+}
+
+
+/* botao dentro modal comprar*/
+
+.comprar{
+    background-color: black;
+    border: black 1px solid;
+    color: white;
+    display: block;
+    margin-top: -25px;
+}
+.comprar:hover{
+    background-color: rgb(66, 31, 224);
+}
+
+
+@media screen and (max-width:400px) {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 18px;
+        /*1rem = 18px*/
+        scroll-behavior: smooth;
+        margin: 0;
+        padding:0px;
+        background-color: black;
+        
+      
+        
+    
+     
+    }
+    
+    body {
+        font-family: 'Open Sans'verdana, sans-serif;
+        background-image: linear-gradient(to right, #a12f22, #332f2b);
+        
+    }
+    
+    
+    /*tornando imagens responsivas*/
+    
+    img {
+        max-width: 100%;
+    }
+    
+    
+    /*reset em alguns elementos*/
+    
+    h1,
+    h2,
+    h3,
+    p,
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header,
+    footer {
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.541);
+    }
+    
+    header {
+        border-bottom: solid 1px;
+
+        
+    }
+    
+    footer {
+        border-top: solid 1px;
+    }
+    
+    main {
+        width: 95%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 0 auto;
+        /* centralizar o bloco */
+    }
+
+    .subnavbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px -40px;
+        padding-left: 20px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;  
+        margin-top: 10px!important;
+    }
+
+#contcarnFR,
+#contcarnFR1,
+#contcarnFR2,
+#contcarnFR3,
+#contcarnFR4,
+#contcarnFR6,
+#contcarnFR7
+{
+    margin-top: 10px;
+    margin-left: -20px;
+    width: 300px;
+    height: 250px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+
+
+#contcarnFR5{
+    margin-top: 10px;
+    margin-left: -20px;
+    width: 300px;
+    height: 250px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+}
+#cardcarn05 h2{
+margin-top: -170px;
+}
+#cardcarn05 .float-esquerda{
+margin-top: 0px;
+}
+.foto{
+    margin-top: 30px;
+}
+
+#contcarnFR4 {
+    margin-top: -55px;
+    font-family: 'Audiowide', cursive;
+    height: 250px;
+}
+
+
+#contcarnFR8 {
+    margin-top: 10px;
+    margin-left: -20px;
+    width: 300px;
+    height: 280px;
+    border: cornsilk solid 1px;
+    overflow: hidden;
+    font-style: italic;
+    color: cornsilk;
+    font-family: 'Audiowide', cursive;
+
+}
+
+#cardnovosLanches h1 {
+    width: 350px;
+    margin-left: -20px;
+    font-family: 'Audiowide', cursive;
+    
+}
+#cardcarn08 h2{
+width: 100px;
+margin-top: -190px;
+padding-top: -20px;
+
+}
+
+#contcarnIMG08{
+margin-top: 90px;
+padding-top: 30px;
+
+}
+
+
+#cardcarn h1,
+#cardcalabresa h1, 
+#cardfrango h1
+ {
+    margin-left: -100px;
+    font-family: 'Audiowide', cursive;
+}
+
+#cardfrango h1{
+    width: 300px;
+}
+#cardvegeta h1{
+    margin-left: -13px;
+}
+
+
+#bottom00,
+#bottom01,
+#bottom02,
+#bottom03,
+#bottom04,
+#bottom05,
+#bottom07,
+#bottom08 {
+    display: block;
+    margin-top: -40px;
+    margin-left: 180px;
+    color: white;
+    background-color: black;
+}
+
+#bottom06{
+  
+    display: block;
+    margin-top: -28px;
+    margin-left: 170px;
+    color: white;
+    background-color: black;
+
+}
+#IMGMOda{
+    margin-top: -75px;
+    margin-left: 150px;
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+#IMGMOda1{
+ 
+    margin-top: -100px;
+    margin-left: 150px;
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+
+
+#IMGMOda2{
+    margin-top: -55px;
+    margin-left: 150px;
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+
+#IMGMOda3{
+    margin-top: -60px!important;
+    margin-left: 150px!important;
+    width: 110px;
+    height: 110px;
+    display: block;
+  }
+
+#IMGMOda4{
+    margin-top: -68px!important;
+    margin-left: 170px!important;
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+
+#IMGMOda5,
+#IMGMOda6,
+#IMGMOdanv {
+    margin-top: -50px!important;
+    margin-left: 170px!important;
+    width: 130px;
+    height: 110px;
+    display: block;
+}
+
+
+#IMGMOdanv1 {
+    margin-top: -50px!important;
+    margin-left: 170px!important;
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+.modal-content{
+    margin-left: 8px;
+}
+.modal-header{
+    width: 363px;
+    margin-left: 0px;
+}
+
+
+}
+
+

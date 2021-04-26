@@ -1,0 +1,449 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    /*1rem = 18px*/
+    scroll-behavior: smooth;
+    margin: -10px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans'verdana, sans-serif;
+    background-image: linear-gradient(to right, #df4b3b, #bbb6b3);
+}
+
+
+/*tornando imagens responsivas*/
+
+img {
+    max-width: 100%;
+}
+
+
+/*reset em alguns elementos*/
+
+body,
+h1,
+h2,
+h3,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+
+header {
+    border-bottom: solid 1px;
+    margin-bottom: 0px;
+}
+
+footer {
+    border-top: solid 1px;
+}
+
+main {
+    width: 95%;
+    /* margin-lef
+ margin: 0 auto;
+ /* centralizar o bloco */
+}
+
+.nav-link {
+    background-color: black;
+    color:white!important;
+}
+
+.navbar-brand {
+    font-family: 'Fondamento';
+}
+
+label {
+    color:black;
+}
+
+.title-compra h2 {
+    color:black;
+    margin-left: 20px;
+}
+
+.modal-body {
+    color: black;
+    display: flex;
+}
+
+.modal-header {
+    color:black;
+    height: 100%;
+}
+
+.modal-body {
+    margin-top: 0px;
+    margin-left: -250px;
+}
+
+.modal-body ul {
+    margin-left: 0px;
+    width: 250px;
+}
+
+.modal-body li {
+    margin-top: 0px;
+    width: 250px;
+    color: black;
+    margin-left: 220px;
+    padding-top: -50px;
+    list-style: none;
+}
+
+.modal-body h2 {
+    margin-top: 150px;
+}
+
+.form-check {
+    margin-top: 120px;
+    margin-left: -490px;
+    width: 300px;
+    padding: 100px;
+}
+
+.modal-footer {
+    margin-top: -120px;
+    margin-left: 0px;
+}
+
+p.valores {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 230px;
+}
+
+.lista-valores {
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+    color:black;
+    position: relative;
+}
+
+.lista-valores ul {
+    margin-top: 10px;
+    margin-left: -250px;
+    width: 600px;
+    list-style: none;
+    position: absolute;
+}
+
+.menu-compras {
+    margin-top: 1200px;
+    margin-left: 100px;
+    padding: 0px;
+    padding-left: 0px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.menu-compras p {
+    margin-left: 58px;
+}
+
+.tot {
+    margin-top: 300px;
+    margin-left: -200px;
+    color:black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.linkcarrinho {
+    margin-top: 670px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+#buttonCP {
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.addcarrinho {
+    margin-top: 10px;
+    margin-left: 0px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.whatsapp {
+    margin-top: 10px;
+    margin-left: 0px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.form0 {
+    margin-top: 10px;
+    margin-left: -220px;
+}
+
+.form0 h2 {
+    margin-top: 0px;
+    margin-left: 490px;
+}
+
+.qtdcp {
+    width: 50px;
+}
+
+#quantityc {
+    display: block;
+    margin-top: -310px;
+    width: 60px;
+    margin-left: 550px;
+}
+
+#quantityd {
+    display: block;
+    margin-top: -550px;
+    width: 60px;
+    margin-left: 550px;
+}
+
+#quantitye {
+    display: block;
+    margin-top: -500px;
+    width: 60px;
+    margin-left: 550px;
+}
+
+#quantityf {
+    display: block;
+    margin-top: -450px;
+    width: 60px;
+    margin-left: 550px;
+}
+
+#quantityg {
+    display: block;
+    margin-top: -300px;
+    width: 60px;
+    margin-left: 550px;
+}
+
+#quantityh {
+    display: block;
+    margin-top: -220px;
+    width: 60px;
+    margin-left: 550px;
+}
+
+.PagaMentos {
+    margin-top: -150px;
+    margin-left: 10px;
+}
+
+#opcaopag {
+    margin-top: 150px;
+}
+
+.dados {
+    margin-right: 580px;
+    background-color: black;
+}
+
+.contdados {
+    display: block;
+    margin-top: 50px;
+    margin-left: -258px;
+    padding: 10px;
+}
+
+.contend {
+    display: block;
+    margin-top: 0px;
+    margin-left: -245px;
+}
+
+.conttel {
+    display: block;
+    margin-top: 0px;
+    margin-left: -245px;
+}
+
+.contcpf {
+    display: relative;
+    margin-top: 0px;
+    margin-left: -245px;
+}
+
+#painel {
+    width: 300px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 0px;
+    word-spacing: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: none;
+}
+
+#paineis {
+    width: 300px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+    word-spacing: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#title {
+    width: 300px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 0px;
+    word-spacing: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: none;
+}
+
+.card-text {
+    margin-top: 10px;
+    background-color: rgb(141, 116, 116)
+}
+
+.titledados {
+    margin-left: 30px;
+    color: white;
+    font-family: 'Fondamento';
+}
+
+.complemento {
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Fondamento';
+}
+
+
+
+/* outros tamanhos de midia*/
+
+@media only screen and (min-width: 375px) {
+    *,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html,body{
+    margin: 0;  
+}
+
+
+
+    .menu-compras {
+        margin-top: 1090px;
+        margin-left: 100px;
+        padding: 0px;
+        padding-left: 0px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .tot {
+        margin-top: 290px;
+        margin-left: -150px;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.5rem;
+        position: absolute;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 365px) {
+
+    .menu-compras{
+        margin-top: 980px;
+        margin-left: 100px;
+        padding: 0px;
+        padding-left: 0px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .tot {
+        margin-top: 320px;
+        margin-left: -150px;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.5rem;
+        position: absolute;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .modal-header{
+        width: 250px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .menu-compras{
+        margin-top: 1300px;
+        margin-left: 100px;
+        padding: 0px;
+        padding-left: 30px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .tot {
+        margin-top: 320px;
+        margin-left: -900px;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.5rem;
+        position: absolute;
+    }
+}
+
+

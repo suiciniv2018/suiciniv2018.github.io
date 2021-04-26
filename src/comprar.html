@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<heade>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vipshamburgueria</title>
+
+    <link href="../css/comprar.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap-4.0.0/dist/css/bootstrap-grid.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</heade>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-inverse" id="menu" style="background-color:black;">
+            </style>
+            <a class="navbar-brand" href="#">Blumn's Burguer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Oferta da semana<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="index.html#CArdhist">Historia<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="index.html#CArdhamb">Hamburgueres<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="galeria.html">Galeria de fotos<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="ecomerce.html">Nosso hamburguer<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#">Cardapio<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#">Contatos<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="carrinho.html">carrinho compra<span class="sr-only">(inicio pagina)</span></a>
+                    </li>
+        </nav>
+        </div>
+    </header>
+
+    <main class="container-conteudo">
+        <section>
+
+            <div class="title-compra">
+                <h2 id="hamburguer">Fagundes Burguer</h2>
+            </div>
+            <div class="modal-header">
+
+                <p>Pagamentos</p>
+                <p class="PagaMentos">
+                    <select id="opcaopag">
+                <option>Cartão de credito</option>
+                <option>Cartão de debito</option>
+                <option>Dinheiro</option>
+              </select>
+                </p>
+                <div class="dados">
+                    <p class="contdados">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                    </p>
+
+                    <p class="contend">
+                        <label for="end">Endereço</label>
+                        <input type="text" id="end" name="end" placeholder="Endereço" required>
+                    </p>
+
+                    <p class="conttel">
+                        <label for="tel">Telefone</label>
+                        <input type="tel" id="tel" name="tel" placeholder="Telefone" required>
+                    </p>
+
+                    <p class="contcpf">
+                        <label for="cpf"> Digite o CPF</label>
+                        <input type="text" id="cpf" name="cpf" placeholder="CPF" required>
+                    </p>
+                </div>
+            </div>
+
+            <div class="modal-body">
+
+
+
+                <div class="form0">
+                    <h2>Complementos</h2>
+                    <ul>
+                        <li>
+                            <p class="valores">Bacon <span id="qtdbc">3.00</span></p>
+                            <p class="valores">Cheddar <span id="qtdbc1">3.00</span></p>
+                            <p class="valores">Ovo <span id="qtdbc2">1.50</span></p>
+                            <p class="valores">Picles <span id="qtdbc3">1.50</span></p>
+                            <p class="valores">Maionese Caseira <span id="qtdbc4">1.50</span></p>
+                            <p class="valores">Carne 100 grs <span id="qtdbc5">5.00</span></p>
+
+                        </li>
+                        <p>
+                            <label for="quantityc">Quantidade</label>
+                            <input type="number" id="quantityc" name="quantity" value="0" min="0" max="999">
+                        </p>
+
+                        <p>
+                            <label for="quantityd">Quantidade</label>
+                            <input type="number" id="quantityd" name="quantity" value="0" min="0" max="999">
+                        </p>
+                        <p>
+                            <label for="quantitye">Quantidade</label>
+                            <input type="number" id="quantitye" name="quantity" value="0" min="0" max="999">
+                        </p>
+                        <p>
+                            <label for="quantityf">Quantidade</label>
+                            <input type="number" id="quantityf" name="quantity" value="0" value="0" min="0" max="999">
+                        </p>
+                        <p>
+                            <label for="quantityg">Quantidade</label>
+                            <input type="number" id="quantityg" name="quantity" value="0" min="0" max="999">
+                        </p>
+                        <p>
+                            <label for="quantityh">Quantidade</label>
+                            <input type="number" id="quantityh" name="quantity" value="0" min="0" max="999">
+                        </p>
+                        </u>
+                </div>
+
+
+            </div>
+
+            <div class="modal-footer">
+                <div class="lista-valores">
+                    <ul>
+                        <li>
+                            <p class="valores">Valor de 1 carne: <span id="valor-carne">18,00</span></p>
+                        </li>
+                        <li>
+                            <p class="valores">Valor de 2 carne: <span id="valor-carne2">26,00</span></p>
+                        </li>
+                        <li>
+                            <p class="valores">Valor de 3 carne: <span id="valor-carne3">30.00</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <form class="menu-compras">
+                    <p>
+                        <label for="quantitya">Quantidade Carne</label>
+                        <input type="number" id="quantitya" name="quantitya" min="0" max="999">
+                    </p>
+                    <p>
+                        <label for="quantityb">Quantidade Lanche</label>
+                        <input type="number" id="quantityb" name="quantityb" min="0" max="999">
+                    </p>
+                    <p>
+                        <button type="submit" id="buttonCP">Quanto vou pagar</button>
+                    </p>
+               
+                    <p>
+                        <button class="whatsapp" id="whatsapp" type="submit">Enviar pedido</button>
+                    </p>
+                </form>
+                <div>
+                    <p class="tot">Total:<span name="total" id="total"></span></p>
+                </div>
+               
+            </div>
+            
+        </section>
+        
+    </main>
+
+
+    <script src="../js/carrinho.js" type="text/javascript"></script>
+    <script src="../js/Somaecomerce.js" type="text/javascript"></script>
+    <script src="../js/AlertNav.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+
+</html>
